@@ -1,24 +1,10 @@
 {
   "version": 1,
   "pool_id": "cloud-rdp-pool",
-  "updated_utc": "2026-09-22T06:04:03.8174958Z",
+  "updated_utc": "2026-09-22T06:56:48.4209144Z",
   "target_machines": 2,
-  "primary": {
-    "account": "acc-1",
-    "owner": "yc1966asgf",
-    "repo": "cloud-rdp",
-    "run_id": null,
-    "since": "2026-09-22T06:04:02.7196514Z"
-  },
-  "standby": [
-    {
-      "account": "acc-2",
-      "owner": "REPLACE_OWNER_2",
-      "repo": "cloud-rdp",
-      "run_id": null,
-      "since": "2026-09-22T06:04:02.7196514Z"
-    }
-  ],
+  "primary": null,
+  "standby": [],
   "accounts": [
     {
       "id": "acc-1",
@@ -26,12 +12,12 @@
       "repo": "cloud-rdp",
       "enabled": true,
       "secret_name": "POOL_TOKEN_1",
-      "token_state": "query_failed",
+      "token_state": "missing",
       "alive_count": 0,
       "total": 0,
       "last_run": null,
-      "note": "Response status code does not indicate success: 404 (Not Found).",
-      "role": "primary"
+      "note": "Secret POOL_TOKEN_1 未配置",
+      "role": ""
     },
     {
       "id": "acc-2",
@@ -44,12 +30,12 @@
       "total": 0,
       "last_run": null,
       "note": "Secret POOL_TOKEN_2 未配置",
-      "role": "standby"
+      "role": ""
     }
   ],
   "recent_dispatches": {
-    "REPLACE_OWNER_1": "2026-09-22T03:49:04.9130907Z",
     "REPLACE_OWNER_2": "2026-09-22T06:04:02.7196514Z",
+    "REPLACE_OWNER_1": "2026-09-22T03:49:04.9130907Z",
     "yc1966asgf": "2026-09-22T06:04:02.7196514Z"
   }
 }
