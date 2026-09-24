@@ -1,7 +1,7 @@
 {
   "version": 1,
   "pool_id": "cloud-rdp-pool",
-  "updated_utc": "2026-09-24T18:22:42.7171022Z",
+  "updated_utc": "2026-09-24T18:37:36.7607163Z",
   "target_machines": 2,
   "primary": null,
   "standby": [],
