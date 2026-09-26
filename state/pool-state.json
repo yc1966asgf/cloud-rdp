@@ -1,7 +1,7 @@
 {
   "version": 1,
   "pool_id": "cloud-rdp-pool",
-  "updated_utc": "2026-09-26T14:00:57.6197374Z",
+  "updated_utc": "2026-09-26T14:18:14.8635584Z",
   "target_machines": 2,
   "primary": null,
   "standby": [],
@@ -35,7 +35,7 @@
   ],
   "recent_dispatches": {
     "yc1966asgf": "2026-09-22T06:04:02.7196514Z",
-    "REPLACE_OWNER_2": "2026-09-22T06:04:02.7196514Z",
-    "REPLACE_OWNER_1": "2026-09-22T03:49:04.9130907Z"
+    "REPLACE_OWNER_1": "2026-09-22T03:49:04.9130907Z",
+    "REPLACE_OWNER_2": "2026-09-22T06:04:02.7196514Z"
   }
 }
